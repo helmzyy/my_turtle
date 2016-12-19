@@ -1,79 +1,50 @@
 import turtle
 
 
-#thx fortune for the savior function
-
-
 my_turtle = turtle.Turtle()
+my_turtle.speed(0)
 
-
-#square
 def square():
-    my_turtle.forward(100)
+    for lines in range(3):
+        my_turtle.forward(100)
 
-    my_turtle.left(90)
+        my_turtle.left(90)
 
-    my_turtle.forward(100)
+    for lines2 in range(4):
 
-    my_turtle.left(90)
+        my_turtle.forward(100)
 
-    my_turtle.forward(100)
+        my_turtle.right(90)
+    
+   
+    my_turtle.forward(200)
 
-    my_turtle.left(90)
+    for lines3 in range(2):
 
-    my_turtle.forward(100)
+        my_turtle.right(90)
 
-    my_turtle.right(90)
-
-    my_turtle.forward(100)
-
-    my_turtle.right(90)
-
-    my_turtle.forward(100)
-
-    my_turtle.right(90)
-
-    my_turtle.forward(100)
+        my_turtle.forward(100)
 
     my_turtle.right(90)
 
     my_turtle.forward(200)
 
-    my_turtle.right(90)
+    for lines3 in range(2):
 
-    my_turtle.forward(100)
+        my_turtle.right(90)
 
-    my_turtle.right(90)
+        my_turtle.forward(100)
 
-    my_turtle.forward(100)
-
-    my_turtle.right(90)
-
-    my_turtle.forward(200)
-
-    my_turtle.right(90)
-
-    my_turtle.forward(100)
-
-    my_turtle.right(90)
-
-    my_turtle.forward(100)
 
 def diamond():
 
     my_turtle.right(45)
 
-    my_turtle.forward(141)
+    for lines4 in range(3):
 
-    my_turtle.right(90)
+        my_turtle.forward(141)
 
-    my_turtle.forward(141)
-
-    my_turtle.right(90)
-
-    my_turtle.forward(141)
-
-    my_turtle.right(90)
+        my_turtle.right(90)
 
     my_turtle.forward(141)
 
@@ -86,29 +57,37 @@ def one():
  
 
 def octagon(): 
-
-  my_turtle.forward(100)
-  my_turtle.left(50) 
-  my_turtle.forward(100) 
-  my_turtle.left(40) 
-  my_turtle.forward(100) 
-  my_turtle.left(50) 
-  my_turtle.forward(100) 
-  my_turtle.left(40) 
-  my_turtle.forward(100) 
-  my_turtle.left(50) 
-  my_turtle.forward(100) 
-  my_turtle.left(39) 
-  my_turtle.forward(100) 
-  my_turtle.left(50) 
-  my_turtle.forward(100)
-    
+    for octs in range(7):
+      my_turtle.forward(100)
+      my_turtle.left(45) 
+   
+    my_turtle.forward(100)
+    my_turtle.right(45/2)  
 
 
-for octogon in range(9):
+for octogon in range(16):
         
     octagon() 
-    
-one()
 
+one()
+arrow = turtle.Turtle()
+
+d = arrow.right
+a = arrow.left
+w = arrow.forward
+
+arrow.speed(0)
+
+def square(angle,agle,leng):
+    w(leng)
+    a(agle)
+    w(leng)
+    a(agle)
+    w(leng)
+    a(agle)
+    w(leng)
+    a(angle)
+
+for i in range(360):
+    square(89,90,100)
 #By: Helmzyy

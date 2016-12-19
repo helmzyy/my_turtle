@@ -70,24 +70,18 @@ for octogon in range(16):
     octagon() 
 
 one()
-arrow = turtle.Turtle()
 
 d = arrow.right
 a = arrow.left
 w = arrow.forward
 
-arrow.speed(0)
-
-def square(angle,agle,leng):
-    w(leng)
-    a(agle)
-    w(leng)
-    a(agle)
-    w(leng)
-    a(agle)
+def eye(angle,agle,leng):
+    for lines in range(3):
+        w(leng)
+        a(agle)    
     w(leng)
     a(angle)
 
 for i in range(360):
-    square(89,90,100)
+    eye(89,90,100)
 #By: Helmzyy

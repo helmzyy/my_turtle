@@ -10,7 +10,7 @@ def square():
 
         my_turtle.left(90)
 
-    for lines2 in range(4):
+    for lines in range(4):
 
         my_turtle.forward(100)
 
@@ -19,7 +19,7 @@ def square():
    
     my_turtle.forward(200)
 
-    for lines3 in range(2):
+    for lines in range(2):
 
         my_turtle.right(90)
 
@@ -29,7 +29,7 @@ def square():
 
     my_turtle.forward(200)
 
-    for lines3 in range(2):
+    for lines in range(2):
 
         my_turtle.right(90)
 
@@ -40,7 +40,7 @@ def diamond():
 
     my_turtle.right(45)
 
-    for lines4 in range(3):
+    for lines in range(3):
 
         my_turtle.forward(141)
 
